@@ -106,7 +106,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="336" y="124"/>
+            <point key="canvasLocation" x="-45" y="124"/>
         </scene>
         <!--Storage-->
         <scene sceneID="uKp-Gd-j61">
@@ -173,11 +173,30 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="94c-oz-TJG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1105.7971014492755" y="123.88392857142857"/>
+            <point key="canvasLocation" x="638" y="124"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="g7m-LH-xX8">
+            <objects>
+                <viewController id="0Lf-7R-BYa" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jZT-bX-bwJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="YYN-Ep-sR6"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="6oo-rl-q3o"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kHF-XI-Xea" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1335" y="124"/>
         </scene>
     </scenes>
     <resources>
         <image name="green_logo" width="360" height="120"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

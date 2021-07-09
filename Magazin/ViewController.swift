@@ -13,10 +13,10 @@ class ViewController: UIViewController {
     @IBOutlet weak var itemsLabel: UILabel!
     let green: Shop = Shop()
     var storageVC: SecondViewController?
+   
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         storageVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "storage") as? SecondViewController
         storageVC?.shop = green
         
@@ -66,6 +66,8 @@ class ViewController: UIViewController {
         if let secondVC = segue.destination as? SecondViewController {
             secondVC.shop = green
         }
+        
+        print("SLDGLKSDNGKJHSGKNSGJKHKDFNGKJFDJGKNJ")
     }
 }
 
